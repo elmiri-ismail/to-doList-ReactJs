@@ -1,0 +1,40 @@
+* {
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+}
+body{
+  background-color: lavender;
+}
+
+h1 { font-size: 24px }
+form { margin-bottom: 20px }
+i { font-style: normal }
+
+.task {
+  color: #921919;
+  padding: 20px;
+  border-left: 5px solid #eee;
+  transition: 0.4s;
+}
+.task:hover {
+  cursor: pointer;
+  opacity: .64;
+}
+.task p:last-child { margin-bottom: 0 }
+.task+.task { margin-top: -5px }
+.task-success {
+  background-color: #E8F5E9;
+  border-left-color: #84a1df;
+  text-decoration: line-through;
+  font-style: italic;
+}
+.task-info {
+  background-color: #88c4e0;
+  border-left-color: #5c3f61;
+  font-style: italic; 
+  border-radius: 10px;
+  
+}
+.task-success:hover{
+  transform: scale(1.1,1.1);
+}
